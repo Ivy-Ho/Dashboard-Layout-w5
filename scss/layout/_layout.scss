@@ -1,0 +1,29 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 296px;
+}
+.sidebar_menu_item_link {
+    display: block;
+    margin-bottom: 16px;
+    padding: 6px 0 6px 32px;
+    &:hover,
+    &:active {
+        border-left: 4px solid #2A8356;
+        padding-left: 28px;
+    }
+}
+//layout,assignment頁面 頭像圖片
+.user-img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.sidebar_user-email {
+    font-size: 14px;
+}
+
+.mainContent {
+    margin-left: 296px;
+}

@@ -1,0 +1,27 @@
+.admin-user-img {
+    width: 141px;
+    height: 141px;
+    object-fit: cover;
+}
+.btn-verified {
+    font-size: 14px;
+    padding: 4px 8px;
+}
+.text-rotate {
+	transform: rotate(0deg);
+	transition: transform .5s;
+}
+.text-rotate.active {
+	transform: rotate(180deg);
+}
+.js-buttonGroup {
+    max-height: 0;
+	transition: max-height .5s;
+	overflow: hidden;
+}
+.js-buttonGroup.active {
+	max-height: 99px;
+}
+.edit-modal-title {
+    font-size: 20px;
+}

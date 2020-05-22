@@ -1,0 +1,30 @@
+.reply-button {
+    padding: 8px 32px;
+    &:active {
+        box-shadow: none;
+        outline: 0;
+    }
+}
+// 管理者回覆區
+.manager-reply {
+    left: 110%;
+    right: 0;
+    bottom: -100%;
+    z-index: 1;
+    transition: all 0.3s;
+    position: fixed;
+    &.show {
+        left: 15px;
+        right: 15px;
+        bottom: 0;
+        position: absolute;
+    }
+    textarea {
+        border: none;
+        resize: none;
+        outline: 0;
+    }
+    .material-icons {
+        margin-right: 24px;
+    }
+}
