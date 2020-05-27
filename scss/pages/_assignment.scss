@@ -1,3 +1,4 @@
+// assignment page start
 .reply-button {
     padding: 8px 32px;
     &:active {
@@ -12,7 +13,7 @@
     bottom: -100%;
     z-index: 1;
     transition: all 0.3s;
-    position: fixed;
+    position: absolute;
     &.show {
         left: 15px;
         right: 15px;
@@ -28,3 +29,5 @@
         margin-right: 24px;
     }
 }
+
+// asignment page end

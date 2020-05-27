@@ -12061,7 +12061,6 @@ a.text-textForth:hover, a.text-textForth:focus {
   }
 }
 
-/* The container */
 .checkbox-container {
   display: block;
   position: relative;
@@ -12178,7 +12177,7 @@ a.text-textForth:hover, a.text-textForth:focus {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-  position: fixed;
+  position: absolute;
 }
 
 .manager-reply.show {
